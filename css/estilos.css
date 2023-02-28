@@ -14,7 +14,6 @@ html{
 /*LOADER*/
 
 .contenedor-loader{
- /* background-color: #f3f3f3;*/
   position: fixed;
   width: 100%;
   height: 100%;
@@ -79,9 +78,7 @@ html{
   padding: 15px 20px;
 }
 .inicio{
-  /* background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)); */
   background-color: #212529;
-  /* url(img/fondo.jpg); */
   background-size: cover;
   height: 100vh;
   color: #fefee3;
@@ -90,7 +87,6 @@ html{
 }
 .inicio .contenedor{
   padding: 50px;
-  /* background-color: #1e2326; */
   background-color:#212529;
   border: 1px solid #081c15;
   width: 80%;
@@ -141,27 +137,14 @@ html{
 
 /* SECCION SOBRE MI */
 .sobremi{
-  /* background-color: #252A2E; */
   background-color: #2E3036;
-  /* url(img/fondo.jpg); */
   background-size: cover;
   height: 100vh;
   color: #ffffff;
   display: flex;
   align-items: center;
 }
-/* .contenido-sobremi{
-  padding: 50px;
-  /* background-color: #1e2326; 
-  background-color:#003459;
-  /* border: 1px solid #081c15; 
-  justify-content: center;
-  align-items: center;
-  width: 90%;
-  margin: auto;
-  text-align: center;
-  border-radius:100px;
-} */
+
 .sobremi h3{
   font-size: 28px;
   font-family: 'Righteous';
@@ -181,15 +164,10 @@ html{
 }
 
 .sobremi ul li i{
-    /* background-color: #1CB698; */
     color: #ffc107;
     padding: 3px;
     font-size: 30px;
     margin: auto;
-    
-   
-    
-
 }
 
 .sobremi ul li strong{
@@ -202,8 +180,6 @@ html{
 }
 /* SECCION EDUCACION */
 .educacion{
-  /* background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)); */
-  /* url(img/fondo.jpg); */
   background-color: #2B2E33;
   background-size: cover;
   height: 100vh;
@@ -213,184 +189,7 @@ html{
 
 }
 
-/* .linea-de-tiempo{
-  margin: 90px auto;
-  width: 360px;
-  border-left: 2px solid rgb(187, 73, 73);
-  padding: 0 20px 0 30px;
-}
 
-.linea-de-tiempo .escuela{
-  background-color: #00a8e8;
-  padding: 20px 15px;
-  font-size: 16px;
-  border: 1px solid #00171f;
-  line-height: 1.7;
-  position: relative;
-  height: 150px;
-  margin-bottom: 20px;
-}
-
-.linea-de-tiempo.escuela:before{
-  content: "";
-  display: block;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: #000;
-  border: 3px solid #ddd;
-  position: absolute;
-  top: 10px;
-  left: -40px;
-}
-.linea-de-tiempo .escuela:after{
-  content: "";
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-color: transparent #ddd transparent transparent;
-  border-width: 8px;
-  position: absolute;
-  left: -17px;
-  top: 10px;
-}
-
-.linea-de-tiempo .escuela h2{
-  margin: 0;
-  text-transform: uppercase;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.linea-de-tiempo .escuela h3{
-  margin: 0;
-  font-family:Arial, Helvetica, sans-serif;
-}
-
-.linea-de-tiempo .escuela div h4{
-  margin: 0;
-  font-family:poppins;
-}
-
-.timeline {
-  padding: 60px 0 20px 0;
-  position: relative;
-}
-
-/* linea vertical 
-.timeline:after {
-  background-color: #eaeaea;
-  content: " ";
-  height: 100%;
-  left: 49%;
-  position: absolute;
-  top: 0;
-  width: 1px;
-  z-index: 0;
-}
-
-
-.timeline .timeline-inner {
-  margin-bottom: 40px;
-  position: relative;
-  z-index: 2;
-}
-
-
-.timeline .timeline-inner:last-child {
-  margin-bottom: 0;
-}
-
-.timeline .timeline-inner .name {
-  float: left;
-  font-size: 18px;
-  padding-right: 4px;
-  position: relative;
-  text-align: right;
-  width: 46%;
-}
-
-.timeline .timeline-inner .name:before {
-  background: #ffd42d;
-  border: 2px solid #fff;
-  border-radius: 100%;
-  content: " ";
-  height: 15px;
-  position: absolute;
-  right: -2.1em;
-  top: 1px;
-  width: 15px;
- -webkit-background-clip: padding-box; 
- -moz-background-clip:padding; 
- background-clip:padding-box;
-}
-
-.timeline .timeline-inner .name.switched:before{
-  background: #2a2a2a;
- -webkit-background-clip: padding-box; 
- -moz-background-clip:padding; 
- background-clip:padding-box;
-
-}
-
-.timeline .timeline-inner .detail {
-  margin-left: 41%;
-  padding-left: 94px;
-  position: relative;
-text-align:left;
-width:56%;
-}
-
-.timeline .timeline-inner .name h4 {
-  margin-bottom: 0;
-font-size: 15px;
-  font-weight: 400;
-}
-
-
-.timeline .timeline-inner .name span.date {
-  color:#999999;
-  font-size: 13.5px;
-  font-weight: 400;
-}
-
-.timeline .timeline-inner .name span.date em {
- background:#ffd42d;
-  border-radius: 3px;
--moz-border-radius:3px;
--webkit-border-radius :3px;
--ms-border-radius:3px;
--o-border-radius: 3px;
-  color: #2a2a2a;
-  font-size: 12.5px;
-  font-weight: 400;
-  margin-left: 10px;
-  padding: 2px 7px;
-  position: relative;
-  top: -1px;
-position:relative;
-}
-
-
-.timeline .timeline-inner .name span.date em:before {
-  border-color: transparent #ffd42d;
-  border-style: solid;
-  border-width: 6px 5px 6px 0;
-  content: "";
-  display: block;
-  left: -4px;
-  position: absolute;
-  top: 4px;
-  width: 0;
-  z-index: 0;
-} */
-
-/* LINEA DE TIEMPO*/
-/* * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Work Sans';
-    font-size: 14px;
-} */
 
 .circle {
   padding: 16px 20px;
@@ -416,19 +215,11 @@ p {
     font-size: 14px;
 }
 
-/*  h2 {
-    color: #6f45a7;
-    font-weight: bold; 
-}*/
+
 .connecting-lines.row .col-2 {
   align-self: stretch;
 }
-/* .connecting-lines.row .col-2::after {
-  content: "";
-  position: absolute;
-  border-left: 3px solid #ffc107;
-  z-index: 1;
-} */
+
 .connecting-lines.row .col-2.bottom::after {
   height: 50%;
   left: 50%;
@@ -449,12 +240,7 @@ p {
   padding: 0;
   height: 40px;
 }
-/*  .timeline hr {
-  border-top: 3px solid #ffc107;
-  margin: 0;
-  top: 17px;
-  position: relative;
-} */
+
 .timeline .col-2 {
   display: flex;
   overflow: hidden;
@@ -488,7 +274,6 @@ p {
 /* SECCION EXPERIENCIA */
 .experiencia{
    background-color: #2E3036;
-  /* url(img/fondo.jpg); */
   background-size: cover;
   height: 100vh;
   color: #fff;
@@ -498,10 +283,7 @@ p {
 
 /* SECCION CONTACTO */
 .contacto{
-  /* background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)); */
-  /* url(img/fondo.jpg); */
   background-color:#2b2e33;
-  /* background-image: url(/img/domenico-loia-hGV2TfOh0ns-unsplash.jpg); */
   background-size: cover;
   height: 100vh;
   color: #fff;
