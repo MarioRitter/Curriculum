@@ -136,7 +136,7 @@ html{
 }
 
 /* SECCION SOBRE MI */
-.sobremi{
+#sobremi1{
   background-color: #2E3036;
   background-size: cover;
   height: 100vh;
@@ -145,32 +145,32 @@ html{
   align-items: center;
 }
 
-.sobremi h3{
+#sobremi1 h3{
   font-size: 28px;
   font-family: 'Righteous';
   margin-bottom: 40px;
   text-align: left;
 }
 
-.sobremi ul{
+#sobremi1 ul{
   list-style:none;
  
   
 }
 
-.sobremi ul li{
+#sobremi1 ul li{
   margin: 12px 0;
   
 }
 
-.sobremi ul li i{
+#sobremi1 ul li i{
     color: #ffc107;
     padding: 3px;
     font-size: 30px;
     margin: auto;
 }
 
-.sobremi ul li strong{
+#sobremi1 ul li strong{
   display: inline-block;
  text-align: left;
   color: #ffffff;
@@ -179,7 +179,7 @@ html{
   font-size: 22px;
 }
 /* SECCION EDUCACION */
-.educacion{
+#educacion{
   background-color: #2B2E33;
   background-size: cover;
   height: 100vh;
